@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Guffi Andrea Acme project page">
+    <title>Storie Alternative</title>
+    <!-- font-awesome -->
+  <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+  <!-- font family -->
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+
+  <!-- navbar -->
+  <nav class="nav" id="nav">
+    <div class="nav-center">
+      <!-- nav header -->
+      <div class="nav-header">
+        <div class="logo">
+          <a href="index.html"><p>AG</p></a> 
+        </div>
+      
+         <!-- <a href="index.html">Guffi Andrea</a> -->
+        
+        <button class="nav-btn" id="nav-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <!-- nav-links -->
+      <ul class="nav-links">
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="projects.html">Projects</a>
+        </li>
+        <li>
+          <a href="articles.html">Articles</a>
+        </li>
+        <li>
+          <a href="contacts.html">Contacts</a>
+        </li> 
+      </ul>
+    </div>
+  </nav>
+  <!-- end of navbar -->
+  <!-- sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div>
+      <button class="close-btn" id="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+      <!-- nav-links -->
+      <ul class="sidebar-links">
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="projects.html">Projects</a>
+        </li>
+        <li>
+          <a href="articles.html">Articles</a>
+        </li>
+        <li>
+          <a href="contacts.html">Contacts</a>
+        </li> 
+      </ul>
+      <!-- social icons -->
+      <ul class="social-icons ">
+        <li>
+          <a href="https://github.com/andreuhh" class="social-icon mobile">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.behance.net/andreaguffi" class="social-icon mobile">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/andrea.guffi/" class="social-icon mobile">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+
+  <div class="hero hero--project hero--project--acme">
+    <div class="hero__content"></div>
+  </div>
+
+  <main class="main__project">
+    <h1>Acme</h1>
+    <div class="main__project--info">
+        <p>June 2020</p>
+        <p>Stencil js, Sass</p>
+        <a href="https://acme-mohole.netlify.app/" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+    </div>
+    <div class="main__project--content">
+        <h3>Description</h3>
+        <p>
+          Project developed during the Mohole School Digital Techniques course. 
+          The project was developed with Stencil Js with 
+          a particular focus on the use of web components.
+        </p>
+        <p>I worked in a team of 3 people using Git to deploy the code.</p>
+        <br>
+        <br>
+
+        <h3>Brief</h3>
+        <p>
+          Acme is a personal and business services company that includes financial and insurance services
+          It is a company that has been present for some time but has decided to renew itself by proposing 
+          a Landing Page able to attract a younger audience.
+        </p>
+        <p>I worked in a team of 3 people using Git to deploy the code.</p>
+        <br>
+        <p>
+          - It will be necessary to emphasize the company's core business 
+            (financial and insurance services) and its target customers (companies and individuals).
+        </p>
+        <p>
+          - You will need to use the style rules defined in the styles file and the images provided by the company
+        </p>
+
+        <h3>Design</h3>
+        <img src="img/acme-card.jpg" alt="" width="80%" height="auto">
+        <p>
+          We decided to use different colored cards to divide the company's 
+          core business (financial and insurance services) and its target 
+          customers (companies and individuals). 
+      </p>
+      <br>
+      <br>
+      <h3>Develop</h3>
+        <p>
+          Developing the site was pretty easy. We worked in a team of 3 on the various 
+          components without worrying about css class collisions since in 
+          Stencil Js each component is separate from the others.
+      </p>
+    </div>
+    
+    <a class="btn--primary--project" href="https://acme-mohole.netlify.app/">
+      <button aria-label="Show Acme website"  class="btn--primary ">View website</button>
+    </a>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+
+    <ul class="social-icons">
+      <li>
+        <a href="https://github.com/andreuhh" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.behance.net/andreaguffi" class="social-icon">
+          <i class="fab fa-behance"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/andrea.guffi/" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+    
+    <p>&copy; <span id="date"></span> Made with <span class="love">love</span> No page builder</p>
+  </footer>
+
+   <!-- Script -->
+  <script src="./js/app.js"></script>
+</body>
+</html>
