@@ -721,20 +721,9 @@ About Page
   .description__img{order: 1;}
 }
 
-
 /*
 =============== 
-Contacts
-===============
-*/
-section.contacts{text-align: left;}
-section.contacts a{color: var(--secondary-col); font-weight: 700;}
-section.contacts p{padding-top: 10%;}
-
-
-/*
-=============== 
-SINGLE PROJECT
+SINGLE PROJECT / ARTICLE
 ===============
 */
 
@@ -802,8 +791,12 @@ SINGLE PROJECT
   }
 }
 
-
- 
+/*
+=============== 
+SCRIVIMI PAGE
+===============
+*/
+.hero--scrivimi{background: url(img/scrivimi-bg.jpg) no-repeat center center;}
 
 
 
